@@ -75,6 +75,10 @@ vim.opt.scrolloff = 10
 -- See `:help 'confirm'`
 vim.opt.confirm = true
 
+-- Load exrc file to get local project configuration
+-- Possible files can be .nvim.lua, .nvimrc or .exrc
+vim.opt.exrc = true
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
